@@ -1,17 +1,6 @@
-name: learn-github-actions
+name: learn-github-actions-frontend
 on: [push]
 jobs:
-  job1:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        name: checkut code
-      - run: echo OK
-        name: code build
-      - run: echo OK
-        name: code test
-      - run: echo OK
-        name: code review
-      - run: echo OK
-        name: release software
+  call-container-integration-reusable:
+    uses: pdevops78/github-actions-shared-workflows/.github/workflows/shared-workflow.yml@main
 
