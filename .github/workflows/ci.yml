@@ -1,4 +1,4 @@
-name: learn-github-actions-frontend
+name: caller reusable frontend
 on: [push]
 jobs:
   call-container-integration-reusable:
