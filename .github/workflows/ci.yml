@@ -1,6 +1,5 @@
-name: caller reusable frontend
+name: learn-github-actions
 on: [push]
 jobs:
-  call-container-integration-reusable:
-     uses: pdevops78/github-actions-shared-workflows/.github/workflows/ci.yml@main
-
+  ci-server:
+    uses: pdevops78/github-actions-shared-workflows/.github/workflows/ci.yml@main
