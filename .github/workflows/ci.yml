@@ -1,5 +1,5 @@
-name: shared github actions
+name: learn-github-actions
 on: [push]
 jobs:
   ci-server:
-    uses: pdevops78/github-actions-shared-workflows/.github/workflows/ci.yml@main
+    uses: devps23/reuse-github-actions/.github/workflows/ci.yml@main
